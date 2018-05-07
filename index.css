@@ -48,12 +48,12 @@ body, html {
 	font-size: 1.5em;
 	margin: 10px;
 	flex-direction: column;
-	border-radius: 15px;
+	border-radius: 20px 20px 15px 15px;
 }
 
 .leftside div {
 	background-color: #5a9c6d;
-	border-radius: 11px;
+	border-radius: 20px 20px 15px 15px;
 }
 
 .leftside div a {
@@ -61,8 +61,8 @@ body, html {
 	display: block;
 	text-decoration: none;
 	color: black;
-	border-top-right-radius: 10px;
-	border-top-left-radius: 10px;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
 }
 
 .leftside div a#topMenuItem {
@@ -77,8 +77,8 @@ body, html {
 
 .leftside div a#topMenuItem:hover { 
 	background-color: #3E5043; 
-	border-top-right-radius: 10px;
-	border-top-left-radius: 10px;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
 }
 
 /*************************************************/
@@ -92,7 +92,7 @@ body, html {
 	font-size: 1.4em;
 	margin: 10px;
 	flex-wrap: wrap;
-	border-radius: 10px;
+	border-radius: 15px;
 }
 
 .rightside div {
