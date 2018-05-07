@@ -1,0 +1,101 @@
+.header {
+	width: 100%;
+	height: 100vh; /*view heigth, 100% of the view height */
+	background-color: #998260;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	/* for an image */
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.header div {
+	font-size: 10em;
+	margin: 1em;
+	text-align: center;
+	background-color: lightblue;
+	
+}
+
+/**************************************************/
+
+.content {
+	width: 100%
+	height: 200px;
+	display: flex;
+	background-color: lightpink;
+}
+
+
+/*************************************************/
+
+.content .leftside {
+	display: flex;
+	width: 20%;
+	background-color: #d2a679;
+	justify-content: flex-start;
+	line-height: 5em;
+	font-size: 2em;
+	margin: 10px;
+}
+
+.content .leftside ul#menu {
+	list-style-type: none;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #f1f1f1;
+
+}
+
+.content .leftside ul#menu li {
+	width: 100%;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	border-right: 2px solid black;
+	background-color: green;
+}
+
+.content .leftside ul#menu li#topMenuItem {
+	border-top: 2px solid black;
+}
+
+.content .leftside ul#menu li a {
+	color: #000;
+	width: 100%;
+	padding: 16px 32px;
+	text-decoration: none;
+}
+
+.content .leftside ul#menu li a:hover {
+	background-color: #555;
+	width: 100%;
+	color: white;
+}
+
+/*************************************************/
+
+.content .rightside {
+	display: flex;
+	width: 80%;
+	background-color: #ace600;
+	justify-content: center;
+	line-height: 5em;
+	font-size: 5em;
+	margin: 10px;
+}
+
+/*************************************************/
+
+.footer {
+	display: flex;
+	justify-content: center;
+	background-color: #4db8ff;
+	line-height: 5em;
+	font-size: 3em;
+}
+
