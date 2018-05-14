@@ -15,7 +15,7 @@ app.controller('myCtr', function($scope, $http) {
 	$http({
 		method: 'GET',
 		//url: '/https://www.api.openweathermap.org/data/2.5/weather?q=London,uk'
-		url: 'http://api.openweathermap.org/data/2.5/forecast?q=Burlington,ca&APPID=cae5407500f315309428a8fa2908cb66'
+		url: 'https://api.openweathermap.org/data/2.5/forecast?q=Burlington,ca&APPID=cae5407500f315309428a8fa2908cb66'
 		//url: 'https://pokeapi.co/api/v2/pokemon/1/'
 		//params: {user_id: cae5407500f315309428a8fa2908cb66}
 	}).then(function successCallback(response) {
