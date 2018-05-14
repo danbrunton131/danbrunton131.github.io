@@ -1,14 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="myApp">
 <head>
 	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="index.css">
 	<title>Dan's Website</title>
 </head>
 <body style="margin: 0">
-	<div class="header">
-		<div style="flex-grow: 2">Daniel Brunton</div>
-		<div style="flex-grow: 1">Perkele</div>
+	<div ng-controller="myCtr" >
+	<div class="header" ">
+		<div style="flex-grow: 1">Daniel Brunton</div>
+		<div style="flex-grow: 0.5">Perkele</div>
+
+		<div  id="weather" style="flex-grow: 0.5">
+			<span>{{weather}} &#176; C</span>
+		</div>
 	</div>
 
 	<div class="content">
@@ -72,5 +77,9 @@
 		</div>
 		
 	</footer>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+	<script src="index.js"></script>
 </body>
 </html>
