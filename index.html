@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html ng-app="myApp">
 <head>
-	/*<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">*/
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="index.css">
 	<title>Dan's Website</title>
@@ -9,11 +9,11 @@
 <body style="margin: 0">
 	<div ng-controller="myCtr" >
 	<div class="header" ">
-		<div id="nam"e>Daniel Brunton</div>
+		<div>Daniel Brunton</div>
 		<div>Perkele</div>
 
 		<div  id="weather">
-			<span>Burlington <br>{{date}}<br>
+			<span>Burlington ON<br>{{date}}<br>
 				<i id="weatherIcon" class="fas fa-sun"></i> {{weather}} &#176; C <br> </span>
 			<span> {{conditions}} <br></span>
 			<span> {{windspeed}} mph?<br></span>

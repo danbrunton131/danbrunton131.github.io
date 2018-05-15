@@ -1,7 +1,6 @@
 var app = angular.module('myApp', []);
 
 app.controller('myCtr', function($scope, $http) {
-	$scope.weather = 'hello';
 	$http({
 		method: 'GET',
 		//url: '/https://www.api.openweathermap.org/data/2.5/weather?q=London,uk'
