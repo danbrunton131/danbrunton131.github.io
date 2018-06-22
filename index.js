@@ -4,7 +4,7 @@ app.controller('myCtr', function($scope, $http) {
 	$http({
 		method: 'GET',
 		//url: '/https://www.api.openweathermap.org/data/2.5/weather?q=London,uk'
-		url: 'https://api.openweathermap.org/data/2.5/forecast?q=Burlington,ca&APPID=cae5407500f315309428a8fa2908cb66'
+		url: 'https://api.openweathermap.org/data/2.5/weather?q=Burlington,ca&APPID=cae5407500f315309428a8fa2908cb66'
 		//params: {user_id: cae5407500f315309428a8fa2908cb66}
 	}).then(function successCallback(response) {
 		$scope.weather = response.data;
